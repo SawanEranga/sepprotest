@@ -1,0 +1,114 @@
+/*
+1. Things need for almost every pages
+**********************************************************************/
+.P_disable-oveflow{
+    
+    overflow: hidden;
+    
+}
+
+
+/*
+1. Login page
+**********************************************************************/
+#P_login-bacground{
+    
+    background-color: #222930;
+}
+
+#P_header-topic{
+   
+    text-align: center;
+    color: #E9E9E9;
+       font-size: 5em;
+       margin-bottom: 5%;
+}
+
+
+#P_form-box{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #4EB1BA;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 100px black;
+    text-align: center;
+}
+
+.P_login-btn {
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	color:#333;
+	background-color:#FA2;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:none;
+	font-family:'Helvetica Neue',Arial,sans-serif;
+	font-size:16px;
+	font-weight:700;
+	margin-top: 5%;
+	padding:1% 10% 1% 10% ;
+	text-shadow:#FE6 0 1px 0;
+}
+
+/*
+1. Home page(main)
+**********************************************************************/
+
+#P_header-bar{
+                color:white;
+		background-color:#333;
+		padding-top:1%;
+		padding-bottom:1%;
+		border-bottom:0.5em solid #C0C0C0;
+		width:100%;
+                
+    
+    
+}
+
+#P_sidebar{
+    background-color:#e0e0e0;
+    height:93vh;
+    width: 100%;
+    padding: 5px;
+   
+    }
+    #P_main-bar{
+         overflow-y:auto;
+	height:93vh;
+	background-color:#efefef;
+	left:0;
+	margin-left:0;
+        padding: 5px;
+    } 
+    
+    
+    
+    
+   	@media (max-width: 992px) 
+        {
+            
+            .P_disable-oveflow{
+    
+                overflow-y: auto;
+    
+        }
+        
+        #P_main-bar{
+         overflow-y:hidden;
+         height: auto;
+         
+	
+    } 
+          #P_sidebar{
+    
+    height:auto;
+    
+   
+    }  
+    
+    
+        }
